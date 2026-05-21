@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SkeletonWalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 141251-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonWalk4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 141251-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonLeftWalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144345-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonLeftWalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144351-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonLeftWalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144409-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonLeftWalk4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144345-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonRightWalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144436-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonRightWalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144446-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonUpWalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144456-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonUpWalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144456-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonUpWalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144502-1.png(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonUpWalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144515-1.png(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonRightWalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144427-1.png(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonRightWalk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144427-1.png(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonWalk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144250-1.png(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonWalk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-03-29 144310-1.png(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackgroundMenuImage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TurtleIdle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-05 134611-1.png(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NerdImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-05 141256-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jevil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-05 141659-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GhostImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-05 142137-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShortSkeletonImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-05 151850-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackgroundNerd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pxArt(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HouseImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-09 125715.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InteractionCloudImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-09 130730-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HouseImage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a-bit-of-thoughts-i-had-about-sans-and-papyruss-house-v0-v1h29tpwlu4c1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HouseImage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-09 133727.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PianoImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-09 141956-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClockImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clock-by-me-v0-ns53hpldb4391-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MapImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pixel-art-map-icon-with-location-marker-game-ui-element-vector-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeedleImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c5771ad92d64289-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BookImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DAB0513WAAAIQpd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackgroundGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pxArt(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-10 194159.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JesterBackgroundImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deltarune-bricks-pixel-art-hd-wallpaper-preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShortSkeletonBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-12 173752-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CajaImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CajaImage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tumblr_oz0494BwzD1w9pcvdo1_400-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CajaImage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8a3d121e9952001-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MetaImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pxArt(3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShortSkeletonBackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e1b7cc597f4d71d2e4cf05b64f0bbc988c0426fa.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParedImage5x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título(5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParedImage3x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título(7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParedImage1x4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título(8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParedImage2x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título(9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParedImage1x3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título(10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParedImage7x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título(11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParedImage2x2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título(12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParedImage1x2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título(13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ParedImage6x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título(14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PapyrusGif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3ce7cd36cd3152452231ef9e46b4b14e.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NerdBackground2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pxArt(5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backgroundTenna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaTalkingImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-17 154048-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaRunning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tumblr_59b1b46c6a6ea6d9d5c81b38698791ff_9f9d2132_400.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaBow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ant-tenna-bow-deltarune.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaHappy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2813698_5615d.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaCrashingOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lj67trstebaf1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaLaughing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tenna-deltarune.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaInSuit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mjndu1i28baf1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaDoingCircles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\h9w9d1i28baf1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaKicking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deltarune-tenna.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaPointing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2815396_badcc.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaWhispering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deltarune_-_Sprite_-_Tenna_-_Whisper.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaSurprised" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tenna_Overworld_Hurt.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaBackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hq720.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaDancingGangamStyle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2813703_35868.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PapyrusFace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96-967532_papyruss-face-by-axis-strike-undertale-papyrus-shirt-trash-can-tshirt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pixelated-arrow-showing-direction-game-8-bit-vector-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaFace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gzh_bBgbkAE4p5M-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowImage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leisure-games-icon-pixel-arrow-joystick-controls-button-png-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OldTVEffect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leisure-games-icon-pixel-arrow-joystick-controls-button-png-1.png (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaQuizzesBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deltarune-tenna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpamtonStill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spamton-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RoulxKaard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RoulxKaard-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpamtonDance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpamtonDance.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpamtonQuiet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpamtonTalking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-1.png (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RoulxTalking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagen-1.png(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RoulxBlink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagen-1.png(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RoulxScared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagen-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RoulxScared1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagen-1.png(3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RoulxScaredTalking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2026-04-22 155951-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JevilToungeOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagen-1.png(4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JevilSad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagen-1.png(5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TennaIdle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tenna_Overworld_Idle-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StandTenna1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-1.png (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-red-pixel-style-incorrect-cross-mark-icon-png-image_16876081-1.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
