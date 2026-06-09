@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblAcertijo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblAcertijo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Determination Mono Web, 22.2pt</value>
+  </data>
+  <data name="lblAcertijo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="lblAcertijo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1880, 76</value>
+  </data>
+  <data name="lblAcertijo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblAcertijo.Text" xml:space="preserve">
+    <value>Un dragón tiene 5 cabezas; por cada cabeza que se le corta le crecen 5 más. Si se le cortan 6 cabezas,
+¿cuántas cabezas tendrá al final?</value>
+  </data>
+  <data name="&gt;&gt;lblAcertijo.Name" xml:space="preserve">
+    <value>lblAcertijo</value>
+  </data>
+  <data name="&gt;&gt;lblAcertijo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAcertijo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAcertijo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnAceptarNerd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 178</value>
+  </data>
+  <data name="btnAceptarNerd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 57</value>
+  </data>
+  <data name="btnAceptarNerd.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btnAceptarNerd.Text" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="btnAceptarNerd.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnAceptarNerd.Name" xml:space="preserve">
+    <value>btnAceptarNerd</value>
+  </data>
+  <data name="&gt;&gt;btnAceptarNerd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAceptarNerd.Parent" xml:space="preserve">
+    <value>pnlNerd</value>
+  </data>
+  <data name="&gt;&gt;btnAceptarNerd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnContinuarFailNerd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 178</value>
+  </data>
+  <data name="btnContinuarFailNerd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 57</value>
+  </data>
+  <data name="btnContinuarFailNerd.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnContinuarFailNerd.Text" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="btnContinuarFailNerd.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnContinuarFailNerd.Name" xml:space="preserve">
+    <value>btnContinuarFailNerd</value>
+  </data>
+  <data name="&gt;&gt;btnContinuarFailNerd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnContinuarFailNerd.Parent" xml:space="preserve">
+    <value>pnlNerd</value>
+  </data>
+  <data name="&gt;&gt;btnContinuarFailNerd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblNerd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNerd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Determination Mono Web, 16.2pt</value>
+  </data>
+  <data name="lblNerd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 25</value>
+  </data>
+  <data name="lblNerd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 116</value>
+  </data>
+  <data name="lblNerd.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblNerd.Text" xml:space="preserve">
+    <value>Bueno, tal vez las 
+matemáticas no son para 
+todos... Intenta otra
+vez, quieres?</value>
+  </data>
+  <data name="&gt;&gt;lblNerd.Name" xml:space="preserve">
+    <value>lblNerd</value>
+  </data>
+  <data name="&gt;&gt;lblNerd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNerd.Parent" xml:space="preserve">
+    <value>pnlNerd</value>
+  </data>
+  <data name="&gt;&gt;lblNerd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 25</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 147</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>pnlNerd</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlNerd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 272</value>
+  </data>
+  <data name="pnlNerd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 277</value>
+  </data>
+  <data name="pnlNerd.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="pnlNerd.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlNerd.Name" xml:space="preserve">
+    <value>pnlNerd</value>
+  </data>
+  <data name="&gt;&gt;pnlNerd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlNerd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlNerd.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblRespuesta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRespuesta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Determination Mono Web, 28.2pt</value>
+  </data>
+  <data name="lblRespuesta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>839, 664</value>
+  </data>
+  <data name="lblRespuesta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 50</value>
+  </data>
+  <data name="lblRespuesta.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblRespuesta.Text" xml:space="preserve">
+    <value>Respuesta</value>
+  </data>
+  <data name="&gt;&gt;lblRespuesta.Name" xml:space="preserve">
+    <value>lblRespuesta</value>
+  </data>
+  <data name="&gt;&gt;lblRespuesta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRespuesta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRespuesta.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtRespuesta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Determination Mono Web, 25.800001pt</value>
+  </data>
+  <data name="txtRespuesta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>741, 744</value>
+  </data>
+  <data name="txtRespuesta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 51</value>
+  </data>
+  <data name="txtRespuesta.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="txtRespuesta.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtRespuesta.Name" xml:space="preserve">
+    <value>txtRespuesta</value>
+  </data>
+  <data name="&gt;&gt;txtRespuesta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRespuesta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtRespuesta.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnValidar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>860, 849</value>
+  </data>
+  <data name="btnValidar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 57</value>
+  </data>
+  <data name="btnValidar.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnValidar.Text" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="&gt;&gt;btnValidar.Name" xml:space="preserve">
+    <value>btnValidar</value>
+  </data>
+  <data name="&gt;&gt;btnValidar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValidar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValidar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pbTiempo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 998</value>
+  </data>
+  <data name="pbTiempo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>807, 42</value>
+  </data>
+  <data name="pbTiempo.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;pbTiempo.Name" xml:space="preserve">
+    <value>pbTiempo</value>
+  </data>
+  <data name="&gt;&gt;pbTiempo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbTiempo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbTiempo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCronometro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCronometro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Determination Mono Web, 22.2pt</value>
+  </data>
+  <data name="lblCronometro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 933</value>
+  </data>
+  <data name="lblCronometro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 38</value>
+  </data>
+  <data name="lblCronometro.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblCronometro.Text" xml:space="preserve">
+    <value>Tiempo:</value>
+  </data>
+  <data name="&gt;&gt;lblCronometro.Name" xml:space="preserve">
+    <value>lblCronometro</value>
+  </data>
+  <data name="&gt;&gt;lblCronometro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCronometro.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCronometro.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnVolver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1707, 989</value>
+  </data>
+  <data name="btnVolver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 67</value>
+  </data>
+  <data name="btnVolver.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnVolver.Text" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="&gt;&gt;btnVolver.Name" xml:space="preserve">
+    <value>btnVolver</value>
+  </data>
+  <data name="&gt;&gt;btnVolver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnVolver.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnVolver.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblIntentos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIntentos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Determination Mono Web, 19.800001pt</value>
+  </data>
+  <data name="lblIntentos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 108</value>
+  </data>
+  <data name="lblIntentos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 35</value>
+  </data>
+  <data name="lblIntentos.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblIntentos.Text" xml:space="preserve">
+    <value>Intentos: </value>
+  </data>
+  <data name="&gt;&gt;lblIntentos.Name" xml:space="preserve">
+    <value>lblIntentos</value>
+  </data>
+  <data name="&gt;&gt;lblIntentos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIntentos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblIntentos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="timerCronometro.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Determination Mono Web, 13.8pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1920, 1080</value>
+  </data>
+  <data name="&gt;&gt;timerCronometro.Name" xml:space="preserve">
+    <value>timerCronometro</value>
+  </data>
+  <data name="&gt;&gt;timerCronometro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>NerdUserControl2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Escape_Room_Digital.UserControls.AcertijoUserControl, Escape Room Digital, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
